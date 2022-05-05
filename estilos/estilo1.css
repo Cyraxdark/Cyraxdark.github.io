@@ -29,15 +29,6 @@ display: inline-block;
     
 }
 
-
-a{
-    color: #000;
-}
-
-a:link{
-    text-decoration: none;
-}
-
 a:hover {
     color: #000000;
     cursor: pointer;
@@ -61,8 +52,37 @@ a:hover {
 }
 
 
+
 .imgmap{
     text-align: center;
     background-color:  #f3f3f3 
 
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #000000;
+	color: white;
+}
+
+tr:hover td{
+	background-color: #000000;
+	color: white;
+    
+}
+
+tr:hover td{
+	cursor: pointer;
+    color: rgb(255, 255, 255);
 }
