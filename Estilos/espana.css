@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: gold;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a{
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: firebrick;
+}
+@media (max-width:500px){
+    header{
+        flex-direction: column;
+    }
+    a{
+        color: aqua;
+    }
+    h2{
+        color: blue;
+    }
+}
