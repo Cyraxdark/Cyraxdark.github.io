@@ -1,92 +1,125 @@
+
 *{
-    margin: 0;
-    padding: 0;
-
-    /* se cambia el modelo de la pagina*/
-    box-sizing: border-box;
+    margin: 0px;
 }
-
 html{
-    background-image: url(https://i.etsystatic.com/5451974/r/il/a9eb3b/2279803383/il_fullxfull.2279803383_gt2h.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 1000px;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color:  #000000 
 }
-
-
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-/*adaprtar tamaño de pantalla*/
-    font-size: 1.5em;
-
-/*para ocupar toda la pantalla*/
-    min-height: 100%;
+    background-color:   #000000  ;
 }
 
-body > *{
-    box-shadow:-1px 1px 7px 0px rgba(0, 0, 0, 0.75) ;
-    border-radius: 4px;
-    padding: 10px;
+.Menu{
+    background-color:   #ff0000 ;
+    text-align: center;
+    margin: 0px;
+}
+
+.Menu li{
+display: inline-block;
+}
+
+.Menu a{
+
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.Menu a:hover{
+
+    background-color:  #0099ff  ;
+    font-size: large
+    
+}
+
+
+
+.mapatext{
+    background-color: #0099ff;
+    color: #000;
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.Menu{
+    background-color:    #cccccc  ;
+    text-align: center;
+    margin: 0px;
+}
+
+.Menu li{
+display: inline-block;
+text-align: center;
+}
+
+.Menu a{
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.mapatext{
+    background-color: #0099ff;
+    color: #000;
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.imagen{
+    float: left;
+}
+
+.text{
+    float: right;
+}
+
+.lugaresturisticos{
+	text-align: center;
+    color: #fff;
+}
+
+#container{
+	display: flex;
+    flex-direction: row;
+}
+
+.textcontainer{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.titulos{
+    color: #fff;
     text-align: center;
 }
 
-body{
-/*Proporciona una cuadricula de una sola columna*/
-    display: grid;
-
-/*separacion de los elementos*/
-    gap: 10px;
-} 
-
-body{
-    /*definir las areas para un mismo trabajo*/
-    grid-template-areas:
-        "header"
-        "nav"
-        "article,"
-        "aside" "
-        "footer";
+.volver{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
-
-.header{
-    grid-area: header;
-    background-color: blue;
-}
-
-.nav{
-    grid-area: nav;
-    background-color: blueviolet;
-}
-
-.article{
-    grid-area: article;
-    background-color: chartreuse;
-}
-
-.aside{
-    grid-area: aside;
-    background-color: deeppink;
-}
-
-.footer{
-    grid-area: footer;
-    background-color: rgb(225, 250, 2);
-}
-
-/*PSEUDOCODIGO: es una palabra que se añade a los selectores y que se especifica un estado especial del elemento selecionado*/
-
-@media (min-width:600px){
-    body{
-        grid-template-columns: 200px auto;
-        grid-template-rows: 100px 50px auto 100px;
-        grid-template-areas:
-        "header header"
-        "nav nav"
-        "aside" "article"
-        "footer" "footer"
-        ;
-    }
-} 

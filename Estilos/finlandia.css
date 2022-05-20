@@ -13,7 +13,6 @@ ul{
     list-style: none;
 }
 
-
 .lista > li{
 
     float: left;
@@ -77,6 +76,7 @@ a img:hover{
     transition: .1s;
 }
 
+
 h1{
     color: aliceblue;
 }
@@ -94,4 +94,130 @@ html{
 
 .volver h1{
     color: black;
+
+    
+}
+
+
+*{
+    margin: 0px;
+}
+html{
+    background-color:  #000000 
+}
+body{
+    background-color:   #000000  ;
+}
+
+.Menu{
+    background-color:   #ff0000 ;
+    text-align: center;
+    margin: 0px;
+}
+
+.Menu li{
+display: inline-block;
+}
+
+.Menu a{
+
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.Menu a:hover{
+
+    background-color:  #0011ff;  ;
+    font-size: large
+    
+}
+
+.mapatext{
+    background-color: #0011ff;
+    color: #000;
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.Menu{
+    background-color:    #cccccc  ;
+    text-align: center;
+    margin: 0px;
+}
+
+.Menu li{
+display: inline-block;
+text-align: center;
+}
+
+.Menu a{
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.mapatext{
+    background-color: #0011ff;
+    color: #000;
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.imagen{
+    float: left;
+}
+
+.text{
+    float: right;
+}
+
+.lugaresturisticos{
+	text-align: center;
+    color: #fff;
+}
+
+#container{
+	display: flex;
+    flex-direction: row;
+}
+
+.textcontainer{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.titulos{
+    color: #fff;
+    text-align: center;
+}
+
+.volver{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
