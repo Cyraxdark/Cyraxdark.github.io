@@ -4,414 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIGURAS</title>
-</head>
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="/Cyraxdark.github.io/style.css">
 </head>
 <body>
+    <header id="titulo">
+        <br>
+        <h1>JavaScript</h1>
+        <br>
+    </header>
 
+    <nav class="nav">
+        <ul>
+            <li> <a href="/Cyraxdark.github.io/calculadora.html" >PRACTICAS</a></li>
+            <li> <a href="" >EJERCICIOS</a></li>
+        </ul>
+    </nav>
 
+<p class="parrafo">
+    <h2>¿Que es?</h2>
+    JavaScript se introdujo en 1995 como una forma de agregar programas a páginas web en el navegador Netscape Navigator. En su momento fue una idea novedosa. En los primeros días de la World Wide Web, HTML era bastante simple, y bastante fácil de aprender casi todo lo que se necesitaba saber para agrupar páginas web. Cualquiera podía hacer una Web juntando tablas, texto y añadiendo alguna imagen. A principios de los años 90, la mayoría de usuarios que se conectaban a Internet lo hacían con módems a una velocidad máxima de 28.8 kbps. Esa velocidad era más que suficiente para la época salvo que quisieras descargar imagenes de cierto tamaño. Lo cierto era que la web en aquel entonces no ofrecía gran cosa más que servir como una inmensa biblioteca donde los usuarios consultaban mayormente contenido basado en texto pero la evolución que conocemos hoy estaba por llegar y podían verse los primeros pasos. En esa época, empezaban a desarrollarse las primeras aplicaciones web y por tanto, las páginas web comenzaban a incluir formularios complejos. Con unas aplicaciones web cada vez más complejas y una velocidad de navegación tan lenta, surgió la necesidad de un lenguaje de programación que se ejecutara en el navegador del usuario. De esta forma, si el usuario no rellenaba correctamente un formulario, no se le hacía esperar mucho tiempo hasta que el servidor volviera a mostrar el formulario indicando los errores existentes.
+</p>
 
+        <div class="imagen"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"></div>
+        <div>
+            <p class="parrafo2">
+                <h2>Desarrollo Posteriores</h2>
+                JavaScript se ha convertido en uno de los lenguajes de programación más populares en internet y poco usados. Al principio, sin embargo, muchos desarrolladores renegaban del lenguaje porque el público al que va dirigido lo formaban publicadores de artículos y demás aficionados, entre otras razones.17​ La llegada de Ajax devolvió JavaScript a la fama y atrajo la atención de muchos otros programadores. Como resultado de esto hubo una proliferación de un conjunto de frameworks y bibliotecas de ámbito general, mejorando las prácticas de programación con JavaScript, y aumentado el uso de JavaScript fuera de los navegadores web, como se ha visto con la proliferación de entornos JavaScript del lado del servidor. En enero de 2009, el proyecto CommonJS fue inaugurado con el objetivo de especificar una librería para uso de tareas comunes principalmente para el desarrollo fuera del navegador web.18​
 
+En junio de 2015 se cerró y publicó el estándar ECMAScript 619​20​ con un soporte irregular entre navegadores21​ y que dota a JavaScript de características avanzadas que se echaban de menos y que son de uso habitual en otros lenguajes como, por ejemplo, módulos para organización del código, verdaderas clases para programación orientada a objetos, expresiones de flecha, iteradores, generadores o promesas para programación asíncrona.
 
+La versión 7 de ECMAScript se conoce como ECMAScript 2016,22​ y es la última versión disponible, publicada en junio de 2016. Se trata de la primera versión para la que se usa un nuevo procedimiento de publicación anual y un proceso de desarrollo abierto.23​
+            </p>
 
-    <div style="background-color:rgb(16, 112, 238); color: aliceblue;">
-        <h3>CALCULAR EL AREA DE UN RECTANGULO</h3>
-    
-        <h4>BASE</h4>
-    <input type="number" id="BaseRectangulo">
-    
-    
-        <h4>ALTURA</h4>
-    <input type="number" id="AlturaRectangulo">
-    
-    
-    <button onclick="obtenerArea()">RESOLVER</button>
-    <br><br>
-    
-    <h4>RESPUESTA: </h4>
-    <div id="AreaResultadoRectangulo">
-    </div>    
-    
-    
-    
-    <h3>CALCULAR EL PERIMETRO DE UN RECTANGULO</h3>
-    
-    
-    <h4>BASE</h4>
-    <input type="number" id="BaseRectangulo1">
-    
-    <h4>ALTURA</h4>
-    <input type="number" id="AlturaRectangulo2">
-    
-    <button onclick="obtenerPerimetro()">RESOLVER</button>
-    <br><br>
-    
-    <h4>RESPUESTA: </h4>
-    <div id="ObtenerPerimetroRectangulo">
-    </div>    
-    </div>
+    <br>
 
+<footer>
 
+    <h3>Pagina creada por Alexis Cochachin</h3>
 
-
-
-
-<div style="background-color:blueviolet; color: aliceblue;">
-        <h3>CALCULAR EL AREA DE UN CUADRADO</h3>
-
-        <h4>LADO 1</h4>
-    <input type="number" id="Cuadradolado1">
-    
-    
-        <h4>LADO 2</h4>
-    <input type="number" id="Cuadradolado2">
-    
-    
-    <button onclick="obtenerAreaRectangulo()">RESOLVER</button>
-    <br><br>
-    
-    <h4>RESPUESTA: </h4>
-    <div id="CuadradoAreaResultado">
-    </div>    
-    
-    
-    
-    <h3>CALCULAR EL PERIMETRO DE UN CUADRADO</h3>
-    
-    
-    <h4>LADO 1</h4>
-    <input type="number" id="lado11">
-    
-    <h4>LADO 2</h4>
-    <input type="number" id="lado22">
-    
-    <h4>LADO 3</h4>
-    <input type="number" id="lado33">
-    
-    <h4>LADO 4</h4>
-    <input type="number" id="lado44">
-    
-    <button onclick="obtenerPerimetroRectangulo()">RESOLVER</button>
-    <br><br>
-    
-    <h4>RESPUESTA: </h4>
-    <div id="CuadradoPerimetroResultado">
-    </div>    
-</div>
-
-
-
-
-
-
-
-
-<div style="background-color:rgb(226, 183, 43); color: aliceblue;">
-    <h3>CALCULAR EL AREA DE UN TRIANGULO</h3>
-
-    <h4>BASE</h4>
-<input type="number" id="TrianguloBase">
-
-
-    <h4>ALTURA</h4>
-<input type="number" id="TrianguloAltura">
-
-
-<button onclick="ObtenerAreaTriangulo()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="TrianguloAreaResultado">
-</div>    
-
-
-
-<h3>CALCULAR EL PERIMETRO DE UN CUADRADO</h3>
-
-
-<h4>LADO 1</h4>
-<input type="number" id="TrianguloLado1">
-
-<h4>LADO 2</h4>
-<input type="number" id="TrianguloLado2">
-
-<h4>LADO 3</h4>
-<input type="number" id="TrianguloLado3">
-
-<button onclick="ObtenerPerimetroTriangulongulo()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="TrianguloPerimetroResultado">
-</div>    
-</div>
-
-
-
-
-
-
-
-<div style="background-color:rgb(207, 33, 178); color: aliceblue;">
-    <h3>CALCULAR EL AREA DE UN ROMBO</h3>
-
-    <h4>DIAGONAL 1</h4>
-<input type="number" id="RomboDiagonal1">
-
-
-    <h4>DIAGONAL 2</h4>
-<input type="number" id="RomboDiagonal2">
-
-
-<button onclick="ObtenerAreaRombo()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="RespuestaAreaRombo1">
-</div>    
-
-
-
-<h3>CALCULAR EL PERIMETRO DE UN CUADRADO</h3>
-
-
-<h4>LADO 1</h4>
-<input type="number" id="RomboLado1">
-
-<h4>LADO 2</h4>
-<input type="number" id="RomboLado2">
-
-<h4>LADO 3</h4>
-<input type="number" id="RomboLado3">
-
-<h4>LADO 4</h4>
-<input type="number" id="RomboLado4">
-
-<button onclick="ObtenerPerimetroRombo()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="RespuestaPerimetroRombo2">
-</div>    
-</div>
-
-
-
-
-
-<div style="background-color:rgb(207, 33, 178); color: aliceblue;">
-    <h3>CALCULAR EL AREA DE UN ROMBOIDE</h3>
-
-    <h4>DIAGONAL 1</h4>
-<input type="number" id="RomboideDiagonal1">
-
-
-    <h4>DIAGONAL 2</h4>
-<input type="number" id="RomboideDiagonal2">
-
-
-<button onclick="ObtenerAreaRomboide()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="RespuestaAreaRomboide1">
-</div>    
-
-
-
-<h3>CALCULAR EL PERIMETRO DE UN ROMBOIDE</h3>
-
-
-<h4>BASE 1 </h4>
-<input type="number" id="RomboideLado1">
-
-<h4>ALTURA 2</h4>
-<input type="number" id="RomboideLado3">
-
-
-<button onclick="ObtenerPerimetroRombo()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="RespuestaPerimetroRomboide2">
-</div>    
-</div>
-
-
-
-
-<div style="background-color:blueviolet; color: aliceblue;">
-    <h3>CALCULAR EL AREA DE UN TRAPECIO</h3>
-
-    <h4>BASE MAYOR </h4>
-<input type="number" id="TrapecioBaseM">
-
-
-    <h4>BASE MENOR</h4>
-<input type="number" id="TrapecioBaseN">
-
-<h4>ALTURA</h4>
-<input type="number" id="TrapecioA">
-
-
-
-<button onclick="obtenerAreaTrapecio()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="TrapeciooAreaResultado">
-</div>    
-
-
-
-<h3>CALCULAR EL PERIMETRO DE UN TRAPECIO</h3>
-
-
-<h4>LADO 1</h4>
-<input type="number" id="TRAPECIOlado1">
-
-<h4>LADO 2</h4>
-<input type="number" id="TRAPECIOlado2">
-
-<h4>BASE MAYOR</h4>
-<input type="number" id="TRAPECIOBASEMAYOR">
-
-<h4>BASE MENOR</h4>
-<input type="number" id="TRAPECIOBASEMENOR">
-
-<button onclick="obtenerPerimetroTrapecio()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="TrapecioPerimetroResultado">
-</div>    
-</div>
-
-
-
-
-<div style="background-color:rgb(0, 255, 42); color: aliceblue;">
-    <h3>CALCULAR EL AREA DE UN TRAPECIO</h3>
-
-    <h4>BASE MAYOR </h4>
-<input type="number" id="TrapecioBaseM">
-
-
-    <h4>BASE MENOR</h4>
-<input type="number" id="TrapecioBaseN">
-
-<h4>ALTURA</h4>
-<input type="number" id="TrapecioA">
-
-
-
-<button onclick="obtenerAreaTrapecio()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="TrapeciooAreaResultado">
-</div>    
-
-
-
-<h3>CALCULAR EL PERIMETRO DE UN TRAPECIO</h3>
-
-
-<h4>LADO 1</h4>
-<input type="number" id="TRAPECIOlado1">
-
-<h4>LADO 2</h4>
-<input type="number" id="TRAPECIOlado2">
-
-<h4>BASE MAYOR</h4>
-<input type="number" id="TRAPECIOBASEMAYOR">
-
-<h4>BASE MENOR</h4>
-<input type="number" id="TRAPECIOBASEMENOR">
-
-<button onclick="obtenerPerimetroTrapecio()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="TrapecioPerimetroResultado">
-</div>    
-</div>
-
-
-
-
-<div style="background-color:rgb(233, 218, 10); color: aliceblue;">
-    <h3>CALCULAR EL AREA DE UN CIRCULO</h3>
-
-    <h4>RADIO</h4>
-<input type="number" id="radioCirculo">
-
-
-<button onclick="obtenerDiametroCirculo()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="DiametroCirculoAreaResultado">
-</div>    
-
-
-
-<h3>CALCULAR EL PERIMETRO DE UN CIRCULO</h3>
-
-
-<h4>DIAMETRO</h4>
-
-<input type="number" id="DIAMETROCIRCULO">
-
-<button onclick="obtenerPerimetroCirculo()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="CirculoPerimetroResultado">
-</div>    
-</div>
-
-
-
-<div style="background-color:rgb(5, 224, 253); color: aliceblue;">
-    <h3>CALCULAR EL AREA DE UN POLIGONO</h3>
-
-    <h4>PERIMETRO</h4>
-<input type="number" id="perimetroPoligono">
-
-    <h4>AREA</h4>
-<input type="number" id="areaPoligono">
-
-
-<button onclick="obtenerRadioPoligono()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="RespuestaPoligono">
-</div>    
-
-
-
-<h3>CALCULAR EL PERIMETRO DE UN CIRCULO</h3>
-
-
-<h4>CANTIDAD DE LADOS</h4>
-
-<input type="number" id="CANTIDADLADOS">
-
-
-<button onclick="obtenerPerimetroTrapecio()">RESOLVER</button>
-<br><br>
-
-<h4>RESPUESTA: </h4>
-<div id="PoligonoPerimetroResultado">
-</div>    
-</div>
-
-
-<script src="/Cyraxdark.github.io/figuras.js">
-    
-</script>
+</footer>
 
 </body>
 </html>
