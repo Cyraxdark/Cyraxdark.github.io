@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIGURAS</title>
+</head>
+</head>
+<body>
+
+
+
+
+
+
+    <div style="background-color:rgb(16, 112, 238); color: aliceblue;">
+        <h3>CALCULAR EL AREA DE UN RECTANGULO</h3>
+    
+        <h4>BASE</h4>
+    <input type="number" id="BaseRectangulo">
+    
+    
+        <h4>ALTURA</h4>
+    <input type="number" id="AlturaRectangulo">
+    
+    
+    <button onclick="obtenerArea()">RESOLVER</button>
+    <br><br>
+    
+    <h4>RESPUESTA: </h4>
+    <div id="AreaResultadoRectangulo">
+    </div>    
+    
+    
+    
+    <h3>CALCULAR EL PERIMETRO DE UN RECTANGULO</h3>
+    
+    
+    <h4>BASE</h4>
+    <input type="number" id="BaseRectangulo1">
+    
+    <h4>ALTURA</h4>
+    <input type="number" id="AlturaRectangulo2">
+    
+    <button onclick="obtenerPerimetro()">RESOLVER</button>
+    <br><br>
+    
+    <h4>RESPUESTA: </h4>
+    <div id="ObtenerPerimetroRectangulo">
+    </div>    
+    </div>
+
+
+
+
+
+
+<div style="background-color:blueviolet; color: aliceblue;">
+        <h3>CALCULAR EL AREA DE UN CUADRADO</h3>
+
+        <h4>LADO 1</h4>
+    <input type="number" id="Cuadradolado1">
+    
+    
+        <h4>LADO 2</h4>
+    <input type="number" id="Cuadradolado2">
+    
+    
+    <button onclick="obtenerAreaRectangulo()">RESOLVER</button>
+    <br><br>
+    
+    <h4>RESPUESTA: </h4>
+    <div id="CuadradoAreaResultado">
+    </div>    
+    
+    
+    
+    <h3>CALCULAR EL PERIMETRO DE UN CUADRADO</h3>
+    
+    
+    <h4>LADO 1</h4>
+    <input type="number" id="lado11">
+    
+    <h4>LADO 2</h4>
+    <input type="number" id="lado22">
+    
+    <h4>LADO 3</h4>
+    <input type="number" id="lado33">
+    
+    <h4>LADO 4</h4>
+    <input type="number" id="lado44">
+    
+    <button onclick="obtenerPerimetroRectangulo()">RESOLVER</button>
+    <br><br>
+    
+    <h4>RESPUESTA: </h4>
+    <div id="CuadradoPerimetroResultado">
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+<div style="background-color:rgb(226, 183, 43); color: aliceblue;">
+    <h3>CALCULAR EL AREA DE UN TRIANGULO</h3>
+
+    <h4>BASE</h4>
+<input type="number" id="TrianguloBase">
+
+
+    <h4>ALTURA</h4>
+<input type="number" id="TrianguloAltura">
+
+
+<button onclick="ObtenerAreaTriangulo()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="TrianguloAreaResultado">
+</div>    
+
+
+
+<h3>CALCULAR EL PERIMETRO DE UN CUADRADO</h3>
+
+
+<h4>LADO 1</h4>
+<input type="number" id="TrianguloLado1">
+
+<h4>LADO 2</h4>
+<input type="number" id="TrianguloLado2">
+
+<h4>LADO 3</h4>
+<input type="number" id="TrianguloLado3">
+
+<button onclick="ObtenerPerimetroTriangulongulo()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="TrianguloPerimetroResultado">
+</div>    
+</div>
+
+
+
+
+
+
+
+<div style="background-color:rgb(207, 33, 178); color: aliceblue;">
+    <h3>CALCULAR EL AREA DE UN ROMBO</h3>
+
+    <h4>DIAGONAL 1</h4>
+<input type="number" id="RomboDiagonal1">
+
+
+    <h4>DIAGONAL 2</h4>
+<input type="number" id="RomboDiagonal2">
+
+
+<button onclick="ObtenerAreaRombo()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="RespuestaAreaRombo1">
+</div>    
+
+
+
+<h3>CALCULAR EL PERIMETRO DE UN CUADRADO</h3>
+
+
+<h4>LADO 1</h4>
+<input type="number" id="RomboLado1">
+
+<h4>LADO 2</h4>
+<input type="number" id="RomboLado2">
+
+<h4>LADO 3</h4>
+<input type="number" id="RomboLado3">
+
+<h4>LADO 4</h4>
+<input type="number" id="RomboLado4">
+
+<button onclick="ObtenerPerimetroRombo()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="RespuestaPerimetroRombo2">
+</div>    
+</div>
+
+
+
+
+
+<div style="background-color:rgb(207, 33, 178); color: aliceblue;">
+    <h3>CALCULAR EL AREA DE UN ROMBOIDE</h3>
+
+    <h4>DIAGONAL 1</h4>
+<input type="number" id="RomboideDiagonal1">
+
+
+    <h4>DIAGONAL 2</h4>
+<input type="number" id="RomboideDiagonal2">
+
+
+<button onclick="ObtenerAreaRomboide()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="RespuestaAreaRomboide1">
+</div>    
+
+
+
+<h3>CALCULAR EL PERIMETRO DE UN ROMBOIDE</h3>
+
+
+<h4>BASE 1 </h4>
+<input type="number" id="RomboideLado1">
+
+<h4>ALTURA 2</h4>
+<input type="number" id="RomboideLado3">
+
+
+<button onclick="ObtenerPerimetroRombo()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="RespuestaPerimetroRomboide2">
+</div>    
+</div>
+
+
+
+
+<div style="background-color:blueviolet; color: aliceblue;">
+    <h3>CALCULAR EL AREA DE UN TRAPECIO</h3>
+
+    <h4>BASE MAYOR </h4>
+<input type="number" id="TrapecioBaseM">
+
+
+    <h4>BASE MENOR</h4>
+<input type="number" id="TrapecioBaseN">
+
+<h4>ALTURA</h4>
+<input type="number" id="TrapecioA">
+
+
+
+<button onclick="obtenerAreaTrapecio()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="TrapeciooAreaResultado">
+</div>    
+
+
+
+<h3>CALCULAR EL PERIMETRO DE UN TRAPECIO</h3>
+
+
+<h4>LADO 1</h4>
+<input type="number" id="TRAPECIOlado1">
+
+<h4>LADO 2</h4>
+<input type="number" id="TRAPECIOlado2">
+
+<h4>BASE MAYOR</h4>
+<input type="number" id="TRAPECIOBASEMAYOR">
+
+<h4>BASE MENOR</h4>
+<input type="number" id="TRAPECIOBASEMENOR">
+
+<button onclick="obtenerPerimetroTrapecio()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="TrapecioPerimetroResultado">
+</div>    
+</div>
+
+
+
+
+<div style="background-color:rgb(0, 255, 42); color: aliceblue;">
+    <h3>CALCULAR EL AREA DE UN TRAPECIO</h3>
+
+    <h4>BASE MAYOR </h4>
+<input type="number" id="TrapecioBaseM">
+
+
+    <h4>BASE MENOR</h4>
+<input type="number" id="TrapecioBaseN">
+
+<h4>ALTURA</h4>
+<input type="number" id="TrapecioA">
+
+
+
+<button onclick="obtenerAreaTrapecio()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="TrapeciooAreaResultado">
+</div>    
+
+
+
+<h3>CALCULAR EL PERIMETRO DE UN TRAPECIO</h3>
+
+
+<h4>LADO 1</h4>
+<input type="number" id="TRAPECIOlado1">
+
+<h4>LADO 2</h4>
+<input type="number" id="TRAPECIOlado2">
+
+<h4>BASE MAYOR</h4>
+<input type="number" id="TRAPECIOBASEMAYOR">
+
+<h4>BASE MENOR</h4>
+<input type="number" id="TRAPECIOBASEMENOR">
+
+<button onclick="obtenerPerimetroTrapecio()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="TrapecioPerimetroResultado">
+</div>    
+</div>
+
+
+
+
+<div style="background-color:rgb(233, 218, 10); color: aliceblue;">
+    <h3>CALCULAR EL AREA DE UN CIRCULO</h3>
+
+    <h4>RADIO</h4>
+<input type="number" id="radioCirculo">
+
+
+<button onclick="obtenerDiametroCirculo()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="DiametroCirculoAreaResultado">
+</div>    
+
+
+
+<h3>CALCULAR EL PERIMETRO DE UN CIRCULO</h3>
+
+
+<h4>DIAMETRO</h4>
+
+<input type="number" id="DIAMETROCIRCULO">
+
+<button onclick="obtenerPerimetroCirculo()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="CirculoPerimetroResultado">
+</div>    
+</div>
+
+
+
+<div style="background-color:rgb(5, 224, 253); color: aliceblue;">
+    <h3>CALCULAR EL AREA DE UN POLIGONO</h3>
+
+    <h4>PERIMETRO</h4>
+<input type="number" id="perimetroPoligono">
+
+    <h4>AREA</h4>
+<input type="number" id="areaPoligono">
+
+
+<button onclick="obtenerRadioPoligono()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="RespuestaPoligono">
+</div>    
+
+
+
+<h3>CALCULAR EL PERIMETRO DE UN CIRCULO</h3>
+
+
+<h4>CANTIDAD DE LADOS</h4>
+
+<input type="number" id="CANTIDADLADOS">
+
+
+<button onclick="obtenerPerimetroTrapecio()">RESOLVER</button>
+<br><br>
+
+<h4>RESPUESTA: </h4>
+<div id="PoligonoPerimetroResultado">
+</div>    
+</div>
+
+
+<script src="/Cyraxdark.github.io/figuras.js">
+    
+</script>
+
+</body>
+</html>
